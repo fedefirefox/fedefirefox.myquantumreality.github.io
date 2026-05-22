@@ -1,3 +1,3 @@
-# fedefirefox.myquantumreality.github.io
+# federico.vismarra.myquantumreality.io
 
-visit https://fedefirefox.github.io/fedefirefox.myquantumreality.github.io/
+Personal research website for sharing science notes and papers on quantum physics, optics, light-matter interaction, superconductivity, spintronics, and experimental methods.

@@ -3,75 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore quantum physics papers and research on light-matter interactions, quantum computing, and more.">
-    <title>My Quantum Reality - Research & Papers</title>
+    <meta name="description" content="federico.vismarra.myquantumreality.io is a curated research site sharing papers on quantum physics, optics, light-matter interaction, superconductivity, spintronics, and experimental methods.">
+    <meta name="theme-color" content="#f6f3ea">
+    <title>federico.vismarra.myquantumreality.io | Science Notes and Research Papers</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <h2>Quantum Reality</h2>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
-                <li><a href="#papers" class="nav-link" data-section="papers">Papers</a></li>
-                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="federico.vismarra.myquantumreality.io home">
+            <span class="brand-mark" aria-hidden="true">FVM</span>
+            <span>
+                <strong>federico.vismarra.myquantumreality.io</strong>
+                <small>Science, from first principles</small>
+            </span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="#papers">Papers</a>
+            <a href="#themes">Themes</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Welcome to My Quantum Reality</h1>
-            <p class="hero-subtitle">Exploring the fundamental nature of light and matter</p>
-            <a href="#papers" class="btn btn-primary">Explore Papers</a>
-        </div>
-        <div class="hero-visual">
-            <img src="image2.png" alt="Quantum Reality Visualization" class="hero-image">
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About This Project</h2>
-            <p>Hej! Welcome to my collection of research papers and articles. Over the last 5 years, I've explored various topics in quantum physics, light-matter interactions, and theoretical physics. This site is dedicated to sharing knowledge in a simple, "ab-initio" approach to complex topics.</p>
-            <div class="about-cards">
-                <div class="card">
-                    <h3>Quantum Physics</h3>
-                    <p>Deep dives into quantum mechanics and quantum computing fundamentals.</p>
-                </div>
-                <div class="card">
-                    <h3>Light-Matter Interactions</h3>
-                    <p>Semiclassical and quantum approaches to understanding light interaction with matter.</p>
-                </div>
-                <div class="card">
-                    <h3>Advanced Topics</h3>
-                    <p>Exploration of BCS theory, spintronics, and high-intensity laser physics.</p>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Open research notes in quantum physics and optics</p>
+                <h1>Science notes for quantum curiosity.</h1>
+                <p class="hero-lede">A curated home for papers on light-matter interaction, pulse propagation, superconductivity, spintronics, high-intensity lasers, and the mathematical tools behind modern physics.</p>
+                <div class="hero-actions">
+                    <a class="button primary" href="#papers">Explore the papers</a>
+                    <a class="button secondary" href="#about">Learn the approach</a>
                 </div>
             </div>
-        </div>
-    </section>
+            <figure class="hero-media">
+                <img src="image1.jpg" alt="Glowing atom visualization for quantum physics research">
+                <figcaption>Quantum ideas, organized for readers who want the derivation as much as the result.</figcaption>
+            </figure>
+        </section>
 
-    <!-- Papers Section -->
-    <section id="papers" class="papers">
-        <div class="container">
-            <h2>Research Papers</h2>
-            <div class="papers-grid" id="papersGrid">
-                <!-- Papers will be loaded here by JavaScript -->
+        <section class="intro-band" aria-label="Research overview">
+            <div class="intro-stat">
+                <strong>8</strong>
+                <span>research papers</span>
             </div>
-        </div>
-    </section>
+            <div class="intro-stat">
+                <strong>5+</strong>
+                <span>years of notes</span>
+            </div>
+            <div class="intro-stat">
+                <strong>Ab initio</strong>
+                <span>explanations from foundations</span>
+            </div>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 My Quantum Reality. All rights reserved.</p>
-            <p>Dedicated to exploring the quantum realm through research and knowledge sharing.</p>
+        <section id="themes" class="section themes">
+            <div class="section-heading">
+                <p class="eyebrow">Research themes</p>
+                <h2>One library, several paths through the physics.</h2>
+            </div>
+            <div class="theme-grid">
+                <article class="theme-card">
+                    <span class="theme-icon">01</span>
+                    <h3>Light and Matter</h3>
+                    <p>Semiclassical interaction, dipole radiation, and the bridge between fields and particles.</p>
+                </article>
+                <article class="theme-card">
+                    <span class="theme-icon">02</span>
+                    <h3>Optics and Lasers</h3>
+                    <p>Waveplates, pulse propagation, high-intensity laser physics, and experimental diagnostics.</p>
+                </article>
+                <article class="theme-card">
+                    <span class="theme-icon">03</span>
+                    <h3>Quantum Devices</h3>
+                    <p>Spintronics, quantum gates, superconductivity, and the physical logic of computation.</p>
+                </article>
+                <article class="theme-card">
+                    <span class="theme-icon">04</span>
+                    <h3>Mathematical Foundations</h3>
+                    <p>Complex numbers and the notation that makes quantum theory compact, precise, and teachable.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="papers" class="section papers-section">
+            <div class="section-heading">
+                <p class="eyebrow">Paper library</p>
+                <h2>Read the papers by topic.</h2>
+                <p>Each card opens the original PDF in a new tab. The artwork is custom made for this site so every paper has a clear visual identity.</p>
+            </div>
+            <div class="paper-controls" aria-label="Filter papers by topic">
+                <button class="filter-button active" type="button" data-filter="all">All</button>
+                <button class="filter-button" type="button" data-filter="optics">Optics</button>
+                <button class="filter-button" type="button" data-filter="quantum">Quantum</button>
+                <button class="filter-button" type="button" data-filter="experimental">Experimental</button>
+                <button class="filter-button" type="button" data-filter="math">Math</button>
+            </div>
+            <div class="papers-grid" id="papersGrid" aria-live="polite"></div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="about-layout">
+                <div>
+                    <p class="eyebrow">About this project</p>
+                    <h2>A living notebook for serious curiosity.</h2>
+                </div>
+                <div class="about-copy">
+                    <p>Hej, welcome. This site collects research papers and long-form notes written to make technical physics feel more approachable without sanding off the rigor. The guiding idea is simple: start from the foundations, show the derivation, and let the reader see how the model earns its result.</p>
+                    <p>The library is organized for students, researchers, and curious readers who want a direct route into quantum physics, optics, and the mathematical language that supports them.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <strong>federico.vismarra.myquantumreality.io</strong>
+            <p>Research notes and papers for sharing science.</p>
         </div>
+        <a href="#home">Back to top</a>
     </footer>
 
     <script src="script.js"></script>
