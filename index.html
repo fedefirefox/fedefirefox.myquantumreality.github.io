@@ -2,46 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Quantum Reality Home Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        img {
-            width: 100%;
-            max-width: 400px;
-        }
-        a {
-            text-decoration: none;
-            color: #007BFF;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <meta name="description" content="Explore quantum physics papers and research on light-matter interactions, quantum computing, and more.">
+    <title>My Quantum Reality - Research & Papers</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>My Quantum Reality Home Page</h1>
-        <img src="image2.png" alt="Description of image">
-        <p>Hej! Welcome!! In this page, I have collected some of the extra-papers I have written for the last 5 years. I always wanted to find a simple and "ab-initio" way to explain some topics in Physics! Here is my collection. I hope one day I will have the time to expand it! Enjoy :D</p>
-        <a href="second.html">Go to the paper page</a>
-    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>Quantum Reality</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#papers" class="nav-link" data-section="papers">Papers</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to My Quantum Reality</h1>
+            <p class="hero-subtitle">Exploring the fundamental nature of light and matter</p>
+            <a href="#papers" class="btn btn-primary">Explore Papers</a>
+        </div>
+        <div class="hero-visual">
+            <img src="image2.png" alt="Quantum Reality Visualization" class="hero-image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About This Project</h2>
+            <p>Hej! Welcome to my collection of research papers and articles. Over the last 5 years, I've explored various topics in quantum physics, light-matter interactions, and theoretical physics. This site is dedicated to sharing knowledge in a simple, "ab-initio" approach to complex topics.</p>
+            <div class="about-cards">
+                <div class="card">
+                    <h3>Quantum Physics</h3>
+                    <p>Deep dives into quantum mechanics and quantum computing fundamentals.</p>
+                </div>
+                <div class="card">
+                    <h3>Light-Matter Interactions</h3>
+                    <p>Semiclassical and quantum approaches to understanding light interaction with matter.</p>
+                </div>
+                <div class="card">
+                    <h3>Advanced Topics</h3>
+                    <p>Exploration of BCS theory, spintronics, and high-intensity laser physics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Papers Section -->
+    <section id="papers" class="papers">
+        <div class="container">
+            <h2>Research Papers</h2>
+            <div class="papers-grid" id="papersGrid">
+                <!-- Papers will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Quantum Reality. All rights reserved.</p>
+            <p>Dedicated to exploring the quantum realm through research and knowledge sharing.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
